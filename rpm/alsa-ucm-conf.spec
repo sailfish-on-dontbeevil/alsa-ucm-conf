@@ -6,7 +6,7 @@ License:        BSD-3-Clause
 URL:            https://www.alsa-project.org
 Source:         alsa-ucm-conf-%{version}.tar.bz2
 BuildArch:      noarch
-Requires:       libasound2 >= 1.2.6.1
+Requires:       alsa-lib >= 1.2.3.2
 
 %description
 This package contains the profiles files for ALSA UCM (Use Case Manager).
