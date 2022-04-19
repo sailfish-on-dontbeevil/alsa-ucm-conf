@@ -1,8 +1,8 @@
-diff --git a/ucm2/codecs/rt5640/init.conf b/ucm2/codecs/rt5640/init.conf
+diff --git a/alsa-ucm-conf/ucm2/codecs/rt5640/init.conf b/alsa-ucm-conf/ucm2/codecs/rt5640/init.conf
 new file mode 100644
 index 0000000..5c960ce
 --- /dev/null
-+++ b/ucm2/codecs/rt5640/init.conf
++++ b/alsa-ucm-conf/ucm2/codecs/rt5640/init.conf
 @@ -0,0 +1,19 @@
 +
 +LibraryConfig.remap.Config {
@@ -23,11 +23,11 @@ index 0000000..5c960ce
 +	}
 +
 +}
-diff --git a/ucm2/lib/card-init.conf b/ucm2/lib/card-init.conf
+diff --git a/alsa-ucm-conf/ucm2/lib/card-init.conf b/alsa-ucm-conf/ucm2/lib/card-init.conf
 new file mode 100644
 index 0000000..527a5e0
 --- /dev/null
-+++ b/ucm2/lib/card-init.conf
++++ b/alsa-ucm-conf/ucm2/lib/card-init.conf
 @@ -0,0 +1,10 @@
 +#
 +# Manage directory for the card specific configuration
@@ -39,11 +39,11 @@ index 0000000..527a5e0
 +	exec "/bin/rm -rf ${var:LibDir}"
 +	exec "/bin/mkdir -p -m 0755 ${var:LibDir}"
 +]
-diff --git a/ucm2/lib/ctl-remap.conf b/ucm2/lib/ctl-remap.conf
+diff --git a/alsa-ucm-conf/ucm2/lib/ctl-remap.conf b/alsa-ucm-conf/ucm2/lib/ctl-remap.conf
 new file mode 100644
 index 0000000..06e775c
 --- /dev/null
-+++ b/ucm2/lib/ctl-remap.conf
++++ b/alsa-ucm-conf/ucm2/lib/ctl-remap.conf
 @@ -0,0 +1,22 @@
 +#
 +# This is generic UCM configuration for alsa-lib
