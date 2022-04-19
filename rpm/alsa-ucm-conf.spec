@@ -15,7 +15,6 @@ This package contains the profiles files for ALSA UCM (Use Case Manager).
 %prep
 %autosetup -p1
 find . -name ".gitignore" -delete
-%patch0
 
 %build
 
